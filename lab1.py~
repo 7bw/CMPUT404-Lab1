@@ -4,4 +4,4 @@ import requests
 print(requests.__version__)
 
 # get Google homepage
-print(requests.get("http://google.com")
+print(requests.get("http://google.com"))
