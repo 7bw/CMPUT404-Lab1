@@ -1,0 +1,7 @@
+import requests
+
+# print the version of the requests library
+print(requests.__version__)
+
+# get Google homepage
+print(requests.get("http://google.com"))
